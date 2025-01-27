@@ -82,15 +82,15 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-center text-gray-300">
                 <MapPin className="w-5 h-5 mr-3 text-[#FDB813]" />
-                <span>123 Drone Street, Sky City</span>
+                <span>7000 Bizerte, Tunisia</span>
               </div>
               <div className="flex items-center text-gray-300">
                 <Mail className="w-5 h-5 mr-3 text-[#FDB813]" />
-                <span>contact@theeagle.com</span>
+                <span>contact@theeagle.tn</span>
               </div>
               <div className="flex items-center text-gray-300">
                 <Phone className="w-5 h-5 mr-3 text-[#FDB813]" />
-                <span>+1 234 567 890</span>
+                <span>+216 00 000 000</span>
               </div>
             </div>
           </motion.div>
