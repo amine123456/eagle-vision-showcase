@@ -98,11 +98,28 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <motion.div 
-          {...fadeIn}
-          className="border-t border-gray-700 mt-12 pt-8 text-center text-gray-400"
-        >
-          <p>&copy; {new Date().getFullYear()} the.eagle. All rights reserved.</p>
-        </motion.div>
+  {...fadeIn}
+  className="border-t border-gray-700 mt-12 pt-8 text-center text-gray-400"
+>
+  <p>
+    &copy; {new Date().getFullYear()}{" "}
+    <span className="text-[#FDB813] font-semibold">the.eagle</span>. All rights reserved.
+  </p>
+  <p>
+    Designed and developed by{" "}
+    <a 
+      href="https://aminedahmani.me" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="text-[#FDB813] font-semibold hover:underline transition-colors"
+    >
+      Amine Dahmani
+    </a>
+  </p>
+</motion.div>
+
+
+
       </div>
     </footer>
   );

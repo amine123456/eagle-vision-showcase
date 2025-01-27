@@ -110,7 +110,7 @@ const PricingCard = ({ plan, inView, index }) => {
           
           <div className="text-center space-y-1">
             <div className="flex items-center justify-center">
-              <span className="text-sm text-gray-400 mr-1">$</span>
+              <span className="text-xs text-gray-400 mr-1">TND</span>
               <span className="text-4xl font-bold">{plan.price}</span>
             </div>
             <span className="text-sm text-gray-400">per project</span>
