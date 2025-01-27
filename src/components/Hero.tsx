@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Drone } from "lucide-react";
+import { ArrowRight, Rocket } from "lucide-react";
 import { Button } from "./ui/button";
 
 const Hero = () => {
@@ -25,7 +25,7 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
           className="mb-6"
         >
-          <Drone className="w-16 h-16 mx-auto text-[#FDB813] mb-4" />
+          <Rocket className="w-16 h-16 mx-auto text-[#FDB813] mb-4" />
         </motion.div>
 
         <motion.h1 
